@@ -44,76 +44,118 @@ html, body, div, span, applet, object, iframe,
   }
 
 .sticker-container{
-  margin-top: 20px;
-  padding-top: 10px;
-  width: 250px;
-  height: 230px;
+  margin-top: 30px;
+  padding-top: 1px;
+  width: 155px;
+  height: 210px;
   background-color: silver;
 }
 
 
 .number, .percent-off-group, .online, .use-code,  .details, .shop-now{
   margin-top: 10px;
+  color:white;
+
+
 }
 
   .number{
     text-align:right;
-    padding-right: 0px;
     font-size: 70px;
+    font-weight: 700;
+    
+
   }
 
   .percent-off-group{
     text-align:left;
-    padding-left: 0px; 
   }
 
   .percent{
-    font-size:37px;
+    font-size:40px;
     padding-left: 0px;
+    font-weight: 700;
+    margin-top: 4px;
   }
 
   .percent-and-number-group{
-    margin-left: 12px;
-  }
+    padding: 0px;
+
+}
+
 
   .off{
-    font-size:25px;
+    font-size:18px;
     padding-left: 0px;
+    font-weight: 700;
   }
 
   .online{
   text-align: center;
-  font-size: 12px;
+  font-size: 9px;
+  letter-spacing: 1px;
+  margin-bottom: 1px;
   }
 
  .use-code{
   text-align: center;
+  font-weight: 100;
+  margin-bottom: 20px;
+  font-size: 11px;
+  letter-spacing: .6px;
+
  }
 
  .details{
   text-align: center;
   text-decoration: underline;
+  font-size: 8px;
+  margin-bottom: 10px;
+  font-weight: 100;
+  letter-spacing: .5px;
  }
 
  .shop-now{
   text-align: center;
   color: white;
+  font-size: 12px;
+  letter-spacing: 1px;
  }
+
+
+.dresses{
+  text-align: center;
+  color:white;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 6px;
+}
+
+
+.carousel-indicators .active{
+     background-color: black;
+   }
+   .carousel-indicators li {
+  background-color: gray;
+   }
 
 
 .shop-now-div{
-  padding-top: 5px;
+  padding-top: 1px;
   background-color: black;
-  height:50px;
+  height:30px;
  }
 
 .xx{
-  font-size: 23px;
+  font-size: 16px;
+  font-weight: 700;
+   letter-spacing: .4px;
 }
 
 .glyphicon{
   float: right;
-  margin-top: -28px;
+  margin-top: -21px;
   margin-right:-14px;
   color:black;
   font-size: 20px;
