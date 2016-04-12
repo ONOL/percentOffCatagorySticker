@@ -142,6 +142,7 @@ html, body, div, span, applet, object, iframe,
 
 
 .shop-now-div{
+position: static;
   padding-top: 1px;
   background-color: black;
   height:30px;
