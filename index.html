@@ -11,7 +11,6 @@
   <title>Sticker</title>
 
 
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
   <!-- Optional theme -->
@@ -29,189 +28,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" type='text/css'>
   <!--  my CSS -->
 
-  
-
-<style>
-html, body, div, span, applet, object, iframe,
-   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-   a, abbr, acronym, address, big, cite, code,
-   del, dfn, em, img, ins, kbd, q, s, samp,
-   small, strike, strong, sub, sup, tt, var,
-   b, u, i, center,
-   dl, dt, dd, ol, ul, li,
-   fieldset, form, label, legend,
-   table, caption, tbody, tfoot, thead, tr, th, td,
-   article, aside, canvas, details, embed,
-   figure, figcaption, footer, header, hgroup,
-   menu, nav, output, ruby, section, summary,
-   time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-  }
-  /* HTML5 display-role reset for older browsers */
-  article, aside, details, figcaption, figure,
-  footer, header, hgroup, menu, nav, section { 
-    display: block;
-  }
-  body {
-      font-family: "Open Sans", sans-serif;
-    line-height: 1;
-  }
-  ol, ul { 
-    list-style: none;
-  }
-  blockquote, q {
-    quotes: none;
-  }
-  blockquote:before, blockquote:after,
-  q:before, q:after {
-    content: '';
-    content: none;
-  }
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
-  }
-
-.sticker-container{
-  margin-top: 30px;
-  padding-top: 1px;
-  width: 155px;
-  height: 185px;
-  background-color: #003764;
-}
-
-
-.number, .percent-off-group, .online, .use-code,  .details, .shop-now{
-  margin-top: 10px;
-  color:white;
-
-
-}
-
-  .number{
-    text-align:right;
-    font-size: 70px;
-    font-weight: 700;
-    
-
-  }
-
-  .percent-off-group{
-    text-align:left;
-  }
-
-  .percent{
-    font-size:40px;
-    padding-left: 0px;
-    font-weight: 700;
-    margin-top: 4px;
-  }
-
-  .percent-and-number-group{
-    padding: 0px;
-
-}
-
-
-  .off{
-    font-size:18px;
-    padding-left: 0px;
-    font-weight: 700;
-  }
-
-  .online{
-  text-align: center;
-  font-size: 9px;
-  letter-spacing: 1px;
-  margin-bottom: -5px;
-  }
-
- .use-code{
-  text-align: center;
-  font-weight: 100;
-  margin-bottom: 10px;
-  font-size: 11px;
-  letter-spacing: .6px;
-
- }
-
- .details{
-  text-align: center;
-  text-decoration: underline;
-  font-size: 8px;
-  margin-bottom: 10px;
-  font-weight: 100;
-  letter-spacing: .5px;
- }
-
- .shop-now{
-  text-align: center;
-  color: white;
-  font-size: 12px;
-  letter-spacing: 1px;
- }
- 
-
- .no-exclusions{
-    margin-top: 15px;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-align: center;
-    color: white;
- }
-
-
-.any-item{
-  text-align: center;
-  color:white;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 1px;
-  margin-top: 6px;
-}
-
-
-
-.shop-now-div{
-position: static;
-  padding-top: 1px;
-  background-color: black;
-  height:30px;
- }
-
-.bonus{
-
-  font-weight: 700;
-
-
-}
-
-.glyphicon{
-  float: right;
-  margin-top: -21px;
-  margin-right:-14px;
-  color:black;
-  font-size: 20px;
-}
-
-.percent-off{
-color:white;
-font-size: 30px;
-text-align: center;
-margin-top: 30px;
-margin-bottom: 30px;
-}
-
-
-
-</style>
-
+  <link rel="stylesheet" href="stickersIndex.css" type='text/css'>
 </head>
 <body>
 
@@ -222,22 +39,12 @@ margin-bottom: 30px;
 
 
 
+
 <div class="row online">ONLINE ONLY. ENDS X/XX.</div>
 
 
 
-<<<<<<< HEAD
-<div class=" row percent-off ">XX% OFF</div>
 
-
-<div class="row any-item">ANY ONE ITEM</div>
-
-
-<div class="row use-code">USE CODE <span class="bonus">ENJOY</div>
-<div class="row details">Restrictions & Details</div>
-
-
-=======
 <div class="percent col-sm-12 col-xs-12">%</div>
 <div class="off col-sm-12 col-xs-12">OFF</div>
 </div>
@@ -250,7 +57,7 @@ margin-bottom: 30px;
 <div class="shop-now-div col-md-12">
 <div class="row col-md-12 shop-now">SHOP NOW</div>
 </div>
->>>>>>> parent of c01cb8b... add changes
+
 
 
 </div>
@@ -266,8 +73,8 @@ margin-bottom: 30px;
 <script src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
 
 <script>
-jQuery(".glyphicon").click(function(){
-    jQuery(".sticker-container").hide();
+$(".glyphicon").click(function(){
+    $(".sticker-container").hide();
 });
 
 
