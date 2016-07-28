@@ -12,26 +12,16 @@
 
 
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-
   <!--  Social Media fonts  -->
   <script src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <!-- Optional theme -->
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" type='text/css'>
-  <!--  my CSS -->
 
-  
+ 
+  <style>
 
-<style>
 html, body, div, span, applet, object, iframe,
    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
    a, abbr, acronym, address, big, cite, code,
@@ -58,7 +48,7 @@ html, body, div, span, applet, object, iframe,
     display: block;
   }
   body {
-      font-family: "Open Sans", sans-serif;
+    font-family: sans-serif;
     line-height: 1;
   }
   ol, ul { 
@@ -81,8 +71,8 @@ html, body, div, span, applet, object, iframe,
   margin-top: 30px;
   padding-top: 1px;
   width: 155px;
-  height: 185px;
-  background-color: #003764;
+  height: 210px;
+  background-color: silver;
 }
 
 
@@ -128,13 +118,13 @@ html, body, div, span, applet, object, iframe,
   text-align: center;
   font-size: 9px;
   letter-spacing: 1px;
-  margin-bottom: -5px;
+  margin-bottom: 1px;
   }
 
  .use-code{
   text-align: center;
   font-weight: 100;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 11px;
   letter-spacing: .6px;
 
@@ -155,19 +145,9 @@ html, body, div, span, applet, object, iframe,
   font-size: 12px;
   letter-spacing: 1px;
  }
- 
-
- .no-exclusions{
-    margin-top: 15px;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-align: center;
-    color: white;
- }
 
 
-.any-item{
+.dresses{
   text-align: center;
   color:white;
   font-weight: 600;
@@ -177,6 +157,13 @@ html, body, div, span, applet, object, iframe,
 }
 
 
+.carousel-indicators .active{
+     background-color: black;
+   }
+   .carousel-indicators li {
+  background-color: gray;
+   }
+
 
 .shop-now-div{
 position: static;
@@ -185,11 +172,10 @@ position: static;
   height:30px;
  }
 
-.bonus{
-
+.xx{
+  font-size: 16px;
   font-weight: 700;
-
-
+   letter-spacing: .4px;
 }
 
 .glyphicon{
@@ -200,18 +186,7 @@ position: static;
   font-size: 20px;
 }
 
-.percent-off{
-color:white;
-font-size: 30px;
-text-align: center;
-margin-top: 30px;
-margin-bottom: 30px;
-}
-
-
-
-</style>
-
+  </style>
 </head>
 <body>
 
@@ -222,20 +197,24 @@ margin-bottom: 30px;
 
 
 
-<div class="row online">ONLINE ONLY. ENDS X/XX.</div>
+<div class="row online">ONLINE ONLY. ENDS 3/21.</div>
 
+<div class="percent-and-number-group col-md-12 col-sm-12 col-xs-12">
 
+<div class="number col-sm-6 col-xs-6 ">40</div>
+<div class="percent-off-group col-sm-6 col-xs-6">
+<!-- <div class="percent col-sm-12 col-xs-12">%</div>
+<div class="off col-sm-12 col-xs-12">OFF</div> -->
+</div>
+</div>
+<div class="row dresses">ALL DRESSES</div>
 
-<div class=" row percent-off ">XX% OFF</div>
+<div class="row use-code">USE CODE<span class="xx"> xxxxxx</div>
+<div class="row details">DETAILS</div>
 
-
-<div class="row any-item">ANY ONE ITEM</div>
-
-
-<div class="row use-code">USE CODE <span class="bonus">ENJOY</div>
-<div class="row details">Restrictions & Details</div>
-
-
+<div class="shop-now-div col-md-12">
+<div class="row  shop-now">SHOP NOW</div>
+</div>
 
 
 </div>
@@ -246,13 +225,13 @@ margin-bottom: 30px;
 </body>
 <foot>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 
 <script src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
 
 <script>
 jQuery(".glyphicon").click(function(){
-    jQuery(".sticker-container").hide();
+   jQuery(".sticker-container").hide();
 });
 
 
@@ -263,3 +242,6 @@ jQuery(".glyphicon").click(function(){
 </foot>
 
 </html>
+
+
+
