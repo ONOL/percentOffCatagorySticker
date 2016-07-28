@@ -60,11 +60,9 @@ html, body, div, span, applet, object, iframe,
 }
 
   .number{
-    text-align:right;
-    font-size: 70px;
+    font-size: 58px;
     font-weight: 700;
-    
-
+    padding-left: 10px;
   }
 
   .percent-off-group{
@@ -72,15 +70,21 @@ html, body, div, span, applet, object, iframe,
   }
 
   .percent{
-    font-size:40px;
-    padding-left: 0px;
+    font-size: 32px;
+    padding-left: 5px;
     font-weight: 700;
-    margin-top: 4px;
+    margin-top: 14px;
+    color: white;
+
   }
 
   .percent-and-number-group{
     padding: 0px;
 
+}
+
+.group{
+ float:right;
 }
 
 

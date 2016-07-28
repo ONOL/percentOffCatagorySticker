@@ -30,7 +30,167 @@
 
   <link rel="stylesheet" href="stickersIndex.css" type='text/css'>
 </head>
+
+<style>
+
+html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed,
+   figure, figcaption, footer, header, hgroup,
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section { 
+    display: block;
+  }
+  body {
+ font-family: "Open Sans", sans-serif;
+    line-height: 1;
+  }
+  ol, ul { 
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+.sticker-container{
+  margin-top: 30px;
+  padding-top: 1px;
+  width: 155px;
+  height: 180px;
+  background-color: #003764;
+}
+
+
+
+
+.number, .percent-off-group, .online, .use-code,  .details, .shop-now{
+  margin-top: 10px;
+  color:white;
+
+
+}
+
+  .number{
+    font-size: 61px;
+    font-weight: 700;
+    padding-left: 25px;
+  }
+
+  .percent-off-group{
+    text-align:left;
+  }
+
+  .percent{
+    font-size: 34px;
+    padding-left: 2px;
+    font-weight: 700;
+    margin-top: 14px;
+    color: white;
+
+  }
+
+  .percent-and-number-group{
+    padding: 0px;
+
+}
+
+.group{
+ float:right;
+}
+
+
+  .off{
+    font-size: 16px;
+    padding-left: 0px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .online{
+  text-align: center;
+  font-size: 9px;
+  letter-spacing: 1px;
+  margin-bottom: 1px;
+  }
+
+ .use-code{
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 10px;
+  font-size: 11px;
+  letter-spacing: .6px;
+
+ }
+
+ .details{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 8px;
+  margin-bottom: 10px;
+  font-weight: 100;
+  letter-spacing: .5px;
+ }
+
+
+
+.dresses{
+  text-align: center;
+  color:white;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 6px;
+}
+
+
+.xx{
+  font-size: 16px;
+  font-weight: 700;
+   letter-spacing: .4px;
+}
+
+.glyphicon{
+  float: right;
+  margin-top: -21px;
+  margin-right:-14px;
+  color:black;
+  font-size: 20px;
+}
+
+
+</style>
+
+
+
 <body>
+
+
 
 
 <div class='sticker-container'>
@@ -44,19 +204,17 @@
 
 
 
-
-<div class="percent col-sm-12 col-xs-12">%</div>
-<div class="off col-sm-12 col-xs-12">OFF</div>
+<div class="number col-sm-6 ">50</div>
+<div class='col-sm-6 group'>
+<div class="percent ">%</div>
+<div class="off ">OFF</div>
 </div>
-</div>
-<div class="row col-md-12 dresses">ALL DRESSES</div>
 
-<div class="row col-md-12 use-code">USE CODE<span class="xx"> xxxxxx</div>
-<div class="row col-md-12 details">DETAILS</div>
+<div class="col-md-12 dresses">ALL DRESSES</div>
 
-<div class="shop-now-div col-md-12">
-<div class="row col-md-12 shop-now">SHOP NOW</div>
-</div>
+<div class=" col-md-12 use-code">USE CODE<span class="xx"> xxxxxx</div>
+<div class=" col-md-12 details">Restrictions & Details</div>
+
 
 
 
